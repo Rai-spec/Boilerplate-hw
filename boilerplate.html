@@ -1,1 +1,40 @@
+<!doctype html>  <!––defines the document type -->
+<html class="no-js" lang=""> <!–– The class is an attribute which specifies one or more class names for an HTML element.-->
 
+<head><!-- contains things like title, scripts, and style sheets-->
+  <meta charset="utf-8"><
+  <title></title><!-- defines the document's title.-->
+  <meta name="description" content="">  <!--This summarizes your web page-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest"><!--specifies the relationship between the current document and the linked document/resource.-->
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory --><!--comment-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa"><!--summarizes your web page.-->
+</head>
+
+<body><!--the content of an HTML document. There can be only one <body> element in a document.-->
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <p>Hello world! This is HTML5 Boilerplate.</p><!-- paragraph element -->
+  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script><--The src attribute specifies the URL of an external script file.-->
+  <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script> 
+  <script src="js/main.js"></script><!--The src attribute specifies the URL of an external script file.-->
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
